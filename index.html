@@ -651,7 +651,8 @@
             <label>期望活動時程</label>
             <input id="fd-event_timing" placeholder="例:2026 Q3、聖誕節前…">
           </div>
-        </div>`;
+        </div>
+        ${productsField()}`;
     } else if (['select_store','gift_store','popup_exhibit','oversea_dist','ecommerce','other_channel'].includes(st)) {
       // 通路類共用問題
       html += `
